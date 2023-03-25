@@ -1,14 +1,9 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "./page.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Paragraph from "./components/ui/Paragraph";
 
 export default function Home() {
   return (
-    <main className="bg-red-500">
-      SHEROZE
-      <p>Ali</p>
+    <main className="">
+      <Paragraph size="sm">SHEROZE ALI SHAH</Paragraph>
     </main>
   );
 }
